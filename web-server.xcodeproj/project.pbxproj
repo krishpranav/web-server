@@ -35,6 +35,7 @@
 		B139261A29801C9F003295DF /* socket.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = socket.h; sourceTree = "<group>"; };
 		B139261B29801E0D003295DF /* socket.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = socket.c; sourceTree = "<group>"; };
 		B139261D29801E3F003295DF /* server.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = server.c; sourceTree = "<group>"; };
+		B139261F29801EF0003295DF /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +52,7 @@
 		B139260029801B0D003295DF = {
 			isa = PBXGroup;
 			children = (
+				B139261F29801EF0003295DF /* README.md */,
 				B139261729801C2E003295DF /* .gitignore */,
 				B139261329801B45003295DF /* CMakeLists.txt */,
 				B139260B29801B0D003295DF /* web-server */,
