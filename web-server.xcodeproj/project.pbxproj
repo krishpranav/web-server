@@ -25,6 +25,7 @@
 /* Begin PBXFileReference section */
 		B139260929801B0D003295DF /* web-server */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "web-server"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B139260C29801B0D003295DF /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		B139261329801B45003295DF /* CMakeLists.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +42,7 @@
 		B139260029801B0D003295DF = {
 			isa = PBXGroup;
 			children = (
+				B139261329801B45003295DF /* CMakeLists.txt */,
 				B139260B29801B0D003295DF /* web-server */,
 				B139260A29801B0D003295DF /* Products */,
 			);
