@@ -7,8 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B139260D29801B0D003295DF /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = B139260C29801B0D003295DF /* main.c */; };
 		B139261629801B99003295DF /* utils.c in Sources */ = {isa = PBXBuildFile; fileRef = B139261529801B99003295DF /* utils.c */; };
+		B139261929801C86003295DF /* client.c in Sources */ = {isa = PBXBuildFile; fileRef = B139261829801C86003295DF /* client.c */; };
+		B139261C29801E0D003295DF /* socket.c in Sources */ = {isa = PBXBuildFile; fileRef = B139261B29801E0D003295DF /* socket.c */; };
+		B139261E29801E3F003295DF /* server.c in Sources */ = {isa = PBXBuildFile; fileRef = B139261D29801E3F003295DF /* server.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,11 +27,14 @@
 
 /* Begin PBXFileReference section */
 		B139260929801B0D003295DF /* web-server */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "web-server"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B139260C29801B0D003295DF /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		B139261329801B45003295DF /* CMakeLists.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = "<group>"; };
 		B139261429801B99003295DF /* utils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = utils.h; sourceTree = "<group>"; };
 		B139261529801B99003295DF /* utils.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = utils.c; sourceTree = "<group>"; };
 		B139261729801C2E003295DF /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		B139261829801C86003295DF /* client.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = client.c; sourceTree = "<group>"; };
+		B139261A29801C9F003295DF /* socket.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = socket.h; sourceTree = "<group>"; };
+		B139261B29801E0D003295DF /* socket.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = socket.c; sourceTree = "<group>"; };
+		B139261D29801E3F003295DF /* server.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = server.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,9 +69,12 @@
 		B139260B29801B0D003295DF /* web-server */ = {
 			isa = PBXGroup;
 			children = (
-				B139260C29801B0D003295DF /* main.c */,
 				B139261429801B99003295DF /* utils.h */,
 				B139261529801B99003295DF /* utils.c */,
+				B139261829801C86003295DF /* client.c */,
+				B139261A29801C9F003295DF /* socket.h */,
+				B139261B29801E0D003295DF /* socket.c */,
+				B139261D29801E3F003295DF /* server.c */,
 			);
 			path = "web-server";
 			sourceTree = "<group>";
@@ -128,8 +136,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B139260D29801B0D003295DF /* main.c in Sources */,
+				B139261E29801E3F003295DF /* server.c in Sources */,
 				B139261629801B99003295DF /* utils.c in Sources */,
+				B139261929801C86003295DF /* client.c in Sources */,
+				B139261C29801E0D003295DF /* socket.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
