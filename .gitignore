@@ -1,0 +1,9 @@
+# system cache
+.DS_Store
+
+# build output folder
+build/
+
+#ide cache
+.vscode/
+.idea/

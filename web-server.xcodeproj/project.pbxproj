@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		B139260D29801B0D003295DF /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = B139260C29801B0D003295DF /* main.c */; };
+		B139261629801B99003295DF /* utils.c in Sources */ = {isa = PBXBuildFile; fileRef = B139261529801B99003295DF /* utils.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,6 +27,9 @@
 		B139260929801B0D003295DF /* web-server */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "web-server"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B139260C29801B0D003295DF /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		B139261329801B45003295DF /* CMakeLists.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = "<group>"; };
+		B139261429801B99003295DF /* utils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = utils.h; sourceTree = "<group>"; };
+		B139261529801B99003295DF /* utils.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = utils.c; sourceTree = "<group>"; };
+		B139261729801C2E003295DF /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +46,7 @@
 		B139260029801B0D003295DF = {
 			isa = PBXGroup;
 			children = (
+				B139261729801C2E003295DF /* .gitignore */,
 				B139261329801B45003295DF /* CMakeLists.txt */,
 				B139260B29801B0D003295DF /* web-server */,
 				B139260A29801B0D003295DF /* Products */,
@@ -60,6 +65,8 @@
 			isa = PBXGroup;
 			children = (
 				B139260C29801B0D003295DF /* main.c */,
+				B139261429801B99003295DF /* utils.h */,
+				B139261529801B99003295DF /* utils.c */,
 			);
 			path = "web-server";
 			sourceTree = "<group>";
@@ -122,6 +129,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B139260D29801B0D003295DF /* main.c in Sources */,
+				B139261629801B99003295DF /* utils.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
